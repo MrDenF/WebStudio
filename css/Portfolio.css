@@ -24,48 +24,18 @@ body{
 .site-list{
     color: var(--title-text-color);
 }
-/*post*/
-.post{
-    background: var(--secondary-background-color);
-}
-.post-title{
-    color: var(--second-text-color);
-}
-.post-button{
-    color: var(--second-text-color);
-    background: var(--background-button-color);
-    cursor: pointer;
-}
-/*BENEFITS*/
-.benefits-name{
+/*PORTFOLIO*/
+.portfolio-button{
     color: var(--title-text-color);
-    font-size: 14px;
 }
-.benefits-text{
-    font-size: 14px;
-}
-/*activity*/
-.section-title{
+/*PRODUCTS*/
+.products-name{
+    font-size: 18px;
     color: var(--title-text-color);
-    font-size: 36px;
 }
-/*TEAM*/
-.team{
-    background: var(--background-team-color);  
-}
-.team-list{
-    background: var(--primery-background-color);
-}
-.team-photo{
-    width: 270px;
-    height: 260px;
-}
-.team-name{
+.products-second-name{
     font-size: 16px;
-    color: var(--title-text-color);
-}
-.team-position{
-    font-size: var(--primery-text-color);
+    color: var(--primery-text-color);
 }
 /*FOOTER*/
 .page-footer{
