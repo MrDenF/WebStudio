@@ -143,7 +143,25 @@ body{
 }
 .address-text{
     color: var(--second-text-color);
+    text-decoration: none;
 }
 .email{
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
+.tel{
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
+.contacts{
+    list-style: none;
+}
+.footer-logo{
     color: var(--second-text-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
