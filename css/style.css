@@ -136,25 +136,31 @@ body{
 /*FOOTER*/
 .page-footer{
     background-color: var(--secondary-background-color);
+    font-weight: 400;
 }
 .address{
     color: var(--second-text-color);
     text-decoration: none;
+    font-weight: 400;
 }
 .address-text{
     color: var(--second-text-color);
     text-decoration: none;
+    font-weight: 400;
 }
 .email{
     color: var(--primery-text-color);
     text-decoration: none;
+    font-weight: 400;
 }
 .tel{
     color: var(--primery-text-color);
     text-decoration: none;
+    font-weight: 400;
 }
 .contacts{
     list-style: none;
+    font-weight: 400;
 }
 .footer-logo{
     color: var(--second-text-color);
