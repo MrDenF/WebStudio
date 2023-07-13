@@ -13,22 +13,87 @@ body{
     padding: 0 215px;
     color: var(--primery-text-color);
     background: var(--primery-background-color);
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
 }
 /*header*/
 .logo{
     color: var(--logo-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 .blue{
     color: var(--background-button-color);
 }
 .site-list{
     color: var(--title-text-color);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    line-height: normal;
+    text-decoration: none;
+    list-style: none;
+}
+.site-link{
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+.site-link:hover,
+.site-link:focus{
+    color: var(--background-button-color);
+}
+
+.contacts-list{
+    list-style: none;
 }
 /*PORTFOLIO*/
 .portfolio-button{
     color: var(--title-text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    background: var(--background-team-color);
+    border-radius: 4px;
+    border: none;
+}
+#b1{
+    width: 73px;
+    height: 38px;
+}
+#b2{
+    width: 125px;
+    height: 38px;
+}
+#b3{
+    width: 112px;
+    height: 38px;
+}
+#b4{
+    width: 103px;
+    height: 38px;
+}
+#b5{
+    width: 130px;
+    height: 38px;
 }
 /*PRODUCTS*/
+.products-card{
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEE;
+}
+.products-photo{
+    width: 370px;
+    height: 294px;
+}
 .products-name{
     font-size: 18px;
     color: var(--title-text-color);
@@ -43,10 +108,29 @@ body{
 }
 .address{
     color: var(--second-text-color);
+    text-decoration: none;
 }
 .address-text{
     color: var(--second-text-color);
+    text-decoration: none;
 }
 .email{
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
+.tel{
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
+.contacts{
+    list-style: none;
+}
+.footer-logo{
     color: var(--second-text-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
