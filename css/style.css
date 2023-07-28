@@ -100,10 +100,9 @@ body{
 }
 /*TEAM*/
 .team{
-    background: var(--background-team-color);  
+    background: var(--background-team-color); 
 }
 .team-list{
-    background: var(--primery-background-color);
     list-style: none;
 }
 .team-photo{
