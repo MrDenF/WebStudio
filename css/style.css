@@ -17,6 +17,10 @@ body{
     font-size: 14px;
 }
 /*header*/
+.header-container{
+    display: flex;
+}
+
 .logo{
     color: var(--logo-color);
     font-family: 'Raleway';
@@ -36,6 +40,8 @@ body{
     line-height: normal;
     text-decoration: none;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 .site-link{
     text-decoration: none;
@@ -48,10 +54,14 @@ body{
 
 .contacts-list{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 /*post*/
 .post{
     background: var(--secondary-background-color);
+    display: flex;
+    flex-direction: column;
 }
 .post-title{
     color: var(--second-text-color);
@@ -78,6 +88,7 @@ body{
 /*BENEFITS*/
 .benefits-list{
     list-style: none;
+    display: flex;
 }
 .benefits-name{
     color: var(--title-text-color);
@@ -98,12 +109,20 @@ body{
     letter-spacing: 1.08px;
     text-align: center;
 }
+.activity-list{
+    display: flex;
+}
+.activity-img{
+    width: 370px;
+    height: 294px;
+}
 /*TEAM*/
 .team{
     background: var(--background-team-color); 
 }
 .team-list{
     list-style: none;
+    display: flex;
 }
 .team-photo{
     width: 270px;
@@ -136,6 +155,8 @@ body{
 .page-footer{
     background-color: var(--secondary-background-color);
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
 }
 .address{
     color: var(--second-text-color);
@@ -160,6 +181,8 @@ body{
 .contacts{
     list-style: none;
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
 }
 .footer-logo{
     color: var(--second-text-color);
