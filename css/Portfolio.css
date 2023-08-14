@@ -20,6 +20,10 @@ ul{
     list-style: none;
 }
 /*header*/
+.header-container{
+    display: flex;
+}
+
 .logo{
     color: var(--logo-color);
     font-family: 'Raleway';
@@ -39,6 +43,7 @@ ul{
     line-height: normal;
     text-decoration: none;
     list-style: none;
+    display: flex;
 }
 .site-link{
     text-decoration: none;
@@ -51,6 +56,7 @@ ul{
 
 .contacts-list{
     list-style: none;
+    display: flex;
 }
 /*PORTFOLIO*/
 .portfolio-button{
@@ -81,6 +87,9 @@ ul{
     padding-top: 94px;
     padding-bottom: 50px;
 }
+.partfolio-filter{
+    display: flex;
+}
 /*PRODUCTS*/
 .products-card{
     width: 370px;
@@ -103,6 +112,11 @@ ul{
 }
 .products{
     padding-bottom: 94px;
+}
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
 }
 /*FOOTER*/
 .page-footer{
